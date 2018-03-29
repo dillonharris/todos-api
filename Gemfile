@@ -8,6 +8,8 @@ end
 gem 'rails', '~> 5.1.4'
 gem 'pg'
 gem 'puma', '~> 3.7'
+gem 'bcrypt', '~> 3.1.7'
+gem 'jwt'
 
 group :development, :test do
   gem 'pry'
