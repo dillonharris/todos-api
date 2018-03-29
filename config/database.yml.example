@@ -1,0 +1,19 @@
+default: &default
+  adapter: postgresql
+  pool: 2
+  timeout: 5000
+  min_messages: warning
+  encoding: utf8
+
+development:
+  <<: *default
+  database: todos_development
+  host: localhost
+
+test:
+  <<: *default
+  database: todos_test
+
+production:
+  <<: *default
+  database: todos_production
