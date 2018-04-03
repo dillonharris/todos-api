@@ -15,7 +15,7 @@ bundler_args: --binstubs=./bundler_stubs
 
 # addons:
 #     code_climate:
-#         repo_token: a6526c1395e397cf8410f6cc2f3616485221a82455d61cf63eb7c1e5578ec23c
+#         repo_token: WEIRD_REPO_TOKEN_HASH
 
 # after_success:
 #     - bundle exec codeclimate-test-reporter
